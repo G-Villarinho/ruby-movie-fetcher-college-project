@@ -40,7 +40,7 @@ class MovieFetcher
 end
 
 def main
-  api_key = "fd730a94"
+  api_key = ""
   movie_fetcher = MovieFetcher.new(api_key)
   
   print "Insira uma palavra chave: "
